@@ -1,0 +1,30 @@
+# Streamlit secrets — NEVER commit this
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Environment
+.env
+.venv
+venv/
+env/
+
+# Dataset files (optional — remove these lines if you want to include them)
+Final_Dataset.csv
+final_labeled_fraud_dataset.csv
+clean_fraud_filings.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
